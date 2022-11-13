@@ -8,6 +8,6 @@ import 'hardhat/console.sol';
 contract LifeCoin is ERC20 {
     constructor() ERC20("LifeCoin", "LIFE") {
         // console.log('Initial supply is %s', initialSupply);
-        _mint(msg.sender, 2000000000000 * (10**18));
+        _mint(msg.sender, 2000000000000);
     }    
 }
